@@ -12,7 +12,7 @@ How to run the project:
 
 3) If you want to run the project as it is with the data provided in the zip file, you can run each algorithm individually from their corresponding .py files. The only thing that needs to be changed is the data location in the main function of the code.
 
-4) If you want to run your own data as test data then a lot of preprocessing needs to be done. First use the preproces the video you are trying to give by using the preprocessing_video.py file. This will give you a csv file with 8 features and a status class. To run the file preprocessing_video.py, you are going to need another file called shape_predictor_68_face_landmarks.dat. This is also present in the zip file. Just make sure to change the location of this file correspondingly in the preprocessing_video.py file before running it.
+4) If you want to run your own data as test data then a lot of preprocessing needs to be done. First preprocess the video you are trying to give by using the preprocessing_video.py file. This will give you a csv file with 8 features and a status class. To run the file preprocessing_video.py, you are going to need another file called shape_predictor_68_face_landmarks.dat. This is also present in the zip file. Just make sure to change the location of this file correspondingly in the preprocessing_video.py file before running it.
 
 3) If you are using KNN, you can go ahead and use the data as it is just by changing the location in the main function of the code and by changing the test train split. This can be done by changing the index on which it is being split.
 
